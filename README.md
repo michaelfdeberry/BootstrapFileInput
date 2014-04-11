@@ -50,7 +50,7 @@ Requires
 
 Preview
 ----
-http://jsfiddle.net/mdeberry/7mAZ7/6/
+http://jsfiddle.net/mdeberry/7mAZ7/
 
 License
 ----
