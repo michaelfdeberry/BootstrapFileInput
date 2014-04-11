@@ -52,7 +52,7 @@
         fileUpload.on('change', function() {
             input.val(fileUpload.val().split('/').pop().split('\\').pop());            
         });
-    }
+    };
     
     $.fn.bootstrapFileInput = function (options) {
         return this.each(function() {
