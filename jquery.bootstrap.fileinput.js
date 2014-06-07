@@ -35,12 +35,10 @@
         fileUpload.hide();        
         buttonGroup.append(button);
                     
-        if(this._options.btnPosition === 'left') {
-            inputGroup.append(buttonGroup);
-            inputGroup.append(input);
-        } else {                        
-            inputGroup.append(input);
-            inputGroup.append(buttonGroup);
+	   if (this._options.size === 'sm') {
+           inputGroup.addClass('input-group-sm');
+        } else if (this._options.size === 'lg') {
+            inputGroup.addClass('input-group-lg');
         }
         
         inputGroup.insertAfter(fileUpload);
